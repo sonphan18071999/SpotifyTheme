@@ -1,12 +1,17 @@
+.button__facebook {
+  border-radius: 30px !important;
+  margin: auto !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .friend__activity {
   min-height: 100vh;
   width: 100%;
   background-color: rgb(40, 40, 40) !important;
   color: white !important;
-}
-
-.button__facebook {
-  border-radius: 30px !important;
 }
 
 .text__small {

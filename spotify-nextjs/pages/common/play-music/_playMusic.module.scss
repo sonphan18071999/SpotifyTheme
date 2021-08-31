@@ -3,5 +3,42 @@
   bottom: 0;
   background-color: rgb(24, 24, 24) !important;
   width: 100%;
-  height: 5rem;
+  height: 7rem;
+  .play__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .button__play__pause {
+      background-color: white;
+    }
+    .button__play__pause:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .margin_around {
+      margin-left: 1rem !important;
+      margin-right: 1rem !important;
+    }
+
+    .white__color {
+      color: white !important;
+    }
+
+    .icon__size {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  .play__progress_bar_container {
+    color: white;
+    display: flex;
+    margin: auto;
+    width: 30%;
+    .play__progress_bar {
+      margin: auto;
+      width: 80%;
+    }
+  }
 }

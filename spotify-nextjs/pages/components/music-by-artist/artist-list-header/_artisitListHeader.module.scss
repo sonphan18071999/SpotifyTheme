@@ -1,0 +1,19 @@
+.artist__list {
+  width: 100%;
+  height: auto;
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .button__padding {
+    border-radius: 2rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    text-decoration: none !important;
+  }
+
+  .margin__right {
+    margin-right: 1em;
+  }
+}
